@@ -7,7 +7,7 @@ spring:
     password: amadeusPassword
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     properties:
       hibernate:
         enable_lazy_load_no_trans: true
